@@ -8,9 +8,7 @@
 </head>
 <body>
     <header>
-        <img onmouseover="TitleWithShadow('#logo')" onmouseout="TitleWithShadow('#logo')" 
-         id="logo" width="150" src="logoCCXP.svg" alt="Error!"
-        >
+        <img id="logo" width="150" src="logoCCXP.svg" alt="Error!">
     </header>
     <section>
         <div id="tituloInformativo">
@@ -58,44 +56,16 @@
     </div>
     <footer id="ingressos">
         <div id="img">
-            <img class="cardsIngressos" width="180" src="quinta.svg" 
-             onclick="selectCard('#quinta')"
-             onmouseover="highLightCard('#quinta')" 
-             onmouseout="highLightCard('#quinta')" 
-             id="quinta" alt="Error!"
-            >
-            <img class="cardsIngressos" width="180" src="sexta.svg" 
-             onclick="selectCard('#sexta')"
-             onmouseover="highLightCard('#sexta')" 
-             onmouseout="highLightCard('#sexta')" 
-             id="sexta" alt="Error!"
-            >
-            <img class="cardsIngressos" width="180" src="sabado.svg" 
-             onclick="selectCard('#sabado')"
-             onmouseover="highLightCard('#sabado')" 
-             onmouseout="highLightCard('#sabado')" 
-             id="sabado" alt="Error!"
-            >
-            <img class="cardsIngressos" width="180" src="domingo.svg" 
-             onclick="selectCard('#domingo')"
-             onmouseover="highLightCard('#domingo')" 
-             onmouseout="highLightCard('#domingo')" 
-             id="domingo" alt="Error!"
-            >
+            <img width="180" src="quinta.svg" id="quinta" alt="Error!">
+            <img width="180" src="sexta.svg" id="sexta" alt="Error!">
+            <img width="180" src="sabado.svg" id="sabado" alt="Error!">
+            <img width="180" src="domingo.svg" id="domingo" alt="Error!">
         </div>
         <div>
-            <button onclick="showSelectedCards()" id="botao">GARANTA O SEU</button>
+            <button id="botao">GARANTA O SEU</button>
         </div>
     </footer>
-
-    <div id="form">
-        <form action="https://www.google.com">
-            <input type="email" placeholder="Seu email" required>
-            <input type="submit">
-        </form>
-    </div>
    
-    <script src="countDown.js"></script>
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
