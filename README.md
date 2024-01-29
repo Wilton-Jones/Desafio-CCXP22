@@ -1,2 +1,2 @@
-# Desafio-CCXP
-Desafio Landing Page CCXP - Escola DNC
+# Desafio-CCXP22
+Desafio Landing Page CCXP22 - Escola DNC
